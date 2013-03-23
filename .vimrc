@@ -114,11 +114,10 @@ let &t_EI = "\<Esc>]50;CursorShape=0\x7"
 "au VimEnter *  NERDTree
 
 map <C-t> :CommandT <CR>
-map <m-left> :bp <CR>
-map <m-right> :bn <CR>
-map <C-w> :bd <CR>
-
-
+map <m-left> :w <CR> :bp <CR>
+map <m-right> :w <CR> :bn <CR>
+map <C-d> :w <CR> :bd <CR>
+map <C-l> :!rspec <CR>
 
 autocmd FileType ruby setlocal shiftwidth=2 tabstop=2 expandtab
 

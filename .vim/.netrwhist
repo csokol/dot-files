@@ -1,5 +1,5 @@
 let g:netrw_dirhistmax  =10
 let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/home/csokol/caelum/projects/anodocodigo'
-let g:netrw_dirhist_2='/home/csokol/ime/mestrado/apps/github-metricminer'
-let g:netrw_dirhist_3='/home/csokol/caelum/projects/anodocodigo'
+let g:netrw_dirhist_1='/home/csokol/caelum/workspace/brutal/scripts'
+let g:netrw_dirhist_2='/home/csokol/ime/mestrado/artigos/msr2013'
+let g:netrw_dirhist_3='/home/csokol/caelum/tubaina/templates-tubaina/templatesCaelum/latex'
