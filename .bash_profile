@@ -22,9 +22,13 @@ export PATH=/home/csokol/caelum/play/play:$PATH
 export PATH=~/.rvm/bin:$PATH
 export PATH=/home/csokol/programas/maven/apache-maven/bin:$PATH
 export PATH=/home/csokol/eclipse/idea/bin:$PATH
+export PATH=/home/csokol/programas/sbt/bin:$PATH
+export PATH=/home/csokol/programas/phantomjs/bin:$PATH
 
 #aliases
 alias eclipse-jee='/home/csokol/eclipse/eclipse-jee/eclipse'
+alias eclipse-scala='/home/csokol/eclipse/eclipse-scala/eclipse'
+alias eclipse-android='/home/csokol/caelum/android/adt-bundle-linux-x86_64-20130219/eclipse/eclipse'
 alias grep='grep --color=auto'
 alias build_tubaina='gradle clean build zip && unzip build/distributions/tubaina-1.8-SNAPSHOT.zip -d build/distributions/'
 alias ssh_integracao='ssh -i ~/.ssh/casadocodigo.pem ec2-user@integracao.casadocodigo.com.br'
