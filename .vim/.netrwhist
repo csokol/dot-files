@@ -1,5 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/home/csokol/caelum/workspace/brutal/scripts'
-let g:netrw_dirhist_2='/home/csokol/ime/mestrado/artigos/msr2013'
-let g:netrw_dirhist_3='/home/csokol/caelum/tubaina/templates-tubaina/templatesCaelum/latex'
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/home/csokol/ime/mestrado/hadoop/hadoop-msr/core'
+let g:netrw_dirhist_2='/home/csokol/ime/mestrado/hadoop/maven-teste/my-app/mod1'
+let g:netrw_dirhist_3='/home/csokol/ime/mestrado/hadoop/maven-teste/main/common'
+let g:netrw_dirhist_4='/home/csokol/ime/mestrado/hadoop/hadoop-1.2.1/conf'
+let g:netrw_dirhist_5='/home/csokol/ime/mestrado/hadoop/hadoop-msr/scripts'
+let g:netrw_dirhist_6='/home/csokol/downloads'
+let g:netrw_dirhist_7='/home/csokol/caelum/casadocodigo/elsevier/1/tmp/META-INF'
+let g:netrw_dirhist_8='/home/csokol/caelum/casadocodigo/elsevier/1/tmp/OEBPS'

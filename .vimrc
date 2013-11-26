@@ -111,6 +111,8 @@ set cursorline
 let &t_SI = "\<Esc>]50;CursorShape=1\x7"
 let &t_EI = "\<Esc>]50;CursorShape=0\x7"
 
+execute pathogen#infect()
+
 "au VimEnter *  NERDTree
 
 map <C-t> :CommandT <CR>
@@ -120,4 +122,6 @@ map <C-d> :w <CR> :bd <CR>
 map <C-l> :!rspec <CR>
 
 autocmd FileType ruby setlocal shiftwidth=2 tabstop=2 expandtab
+
+set encoding=utf-8
 

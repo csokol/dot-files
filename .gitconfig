@@ -1,0 +1,22 @@
+[user]
+	email = chico.sokol@gmail.com
+	name = Francisco Sokol
+[alias]
+	co = checkout
+	st = status
+	br = branch
+	ci = commit
+    pp = !git pull && git push 
+	sync = !git checkout master && git pull origin master && git checkout work && git rebase master && git checkout master && git merge work && git push origin master && git co work
+	local-update = !git checkout master && git pull origin master && git checkout work && git rebase master && git checkout master && git merge work && git co work
+	historico = !git log --pretty='%h de %an em %ad: %B' --graph
+    rm-untracked = !git clean -f -d .
+    total-commits = !git shortlog -s -- | awk '{sum += $1} END {print sum}'
+    make-zip = archive --format zip --output
+[color]
+	diff = auto
+	blame = auto
+	status = auto
+	branch = auto
+[core]
+	editor = vim
