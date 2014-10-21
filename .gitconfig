@@ -20,3 +20,5 @@
 	branch = auto
 [core]
 	editor = vim
+[push]
+	default = simple
